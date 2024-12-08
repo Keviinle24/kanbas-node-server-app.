@@ -7,7 +7,7 @@
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Rohan Biju",
+  "author": "Kevin Le",
   "license": "ISC",
   "description": "Node.js HTTP Web server for the Kanbas application",
   "keywords": [
@@ -16,17 +16,18 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Biju-Ro/web-dev-project.git"
+    "url": "git+https://github.com/Keviinle24/kanbas-react-web-app.git"
   },
   "bugs": {
-    "url": "https://github.com/Biju-Ro/web-dev-project/issues"
+    "url": "https://github.com/Keviinle24/kanbas-react-web-app/issues"
   },
-  "homepage": "https://github.com/Biju-Ro/web-dev-project#readme",
+  "homepage": "https://github.com/Keviinle24/kanbas-react-web-app#readme",
   "dependencies": {
     "axios": "^1.7.7",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.1",
-    "express-session": "^1.18.1"
+    "express-session": "^1.18.1",
+    "mongoose": "^8.8.4"
   }
 }
