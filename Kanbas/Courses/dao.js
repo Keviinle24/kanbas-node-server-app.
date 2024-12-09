@@ -1,11 +1,6 @@
 import model from "./model.js";
 
-export function deleteCourse(courseId) {
-  const { courses, enrollments } = Database;
-  Database.courses = courses.filter((course) => course._id !== courseId);
-  Database.enrollments = enrollments.filter(
-    (enrollment) => enrollment.course !== courseId
-);}
+ 
 
 export function findAllCourses() {
   return model.find();
